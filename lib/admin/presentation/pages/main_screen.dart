@@ -15,8 +15,8 @@ class AdminMainScreen extends StatefulWidget {
 
 class _AdminMainScreenState extends State<AdminMainScreen> {
   final List<String> _pageNames = [
-    'Home Screen',
-    'Report Screen',
+    'Home',
+    'Report',
     'Information',
     'Profile',
   ];
