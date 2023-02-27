@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parker/admin/presentation/pages/main_screen.dart';
 import 'package:parker/auth/presentation/pages/signup_screen.dart';
 
 import 'auth/presentation/pages/sign_in_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
           useMaterial3: true),
-      home: const SignUpScreen(),
+      home: const SignInScreen(),
     );
   }
 }
